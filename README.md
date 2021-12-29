@@ -5,6 +5,7 @@ After the initial setup has run half a year of service, it was time for a soft-r
 First, with the release of the release of the Raspberry Zero W 2, there is enough computing power with a reduced footprint to feed direct off of the Big Tree Tech E3 mini. This reduces also the wire clutter and clears the V0.1 from an additional voltage converter.
 <img width="1025" alt="Schermafbeelding 2021-12-29 om 11 49 50" src="https://user-images.githubusercontent.com/61151314/147654966-99fabae2-09ca-45a7-9f58-60112167e52c.png">
 * in this configuration, both SD-card slots can be accessed without taking off the back cover. The altered SKR_E3_Mounting_Bracket mounts to the vertical 1515 profile next to the VHB tape, and holds a tie-wrap mount for the umbilical.
+* The RPI has its own mounting bracket and bonds to the Mid-panel using 20mm VHB tape.
  
 My initial idea was to solder on a reduced header (only RX/TX to E3 and SPI header for the ADXL345 accelerometer for input shaper. After some thought, you never know what the future will bring, so a full header it is.
 In this repository I will document the basic workflow, as well as the changes I found usefull for my needs, and I hope it will improve the experience of other Voron builders and 3D printing enthousiasts.
