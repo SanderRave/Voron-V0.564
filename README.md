@@ -4,6 +4,8 @@ This is the documentation of the V0564 refurbishment
 After the initial setup has run half a year of service, it was time for a soft-refurbishment. I appreciate minimalism, however half a year of printing tought me I need some utilities and configuration changes for comfort and effectiveness. 
 First, with the release of the release of the Raspberry Zero W 2, there is enough computing power with a reduced footprint to feed direct off of the Big Tree Tech E3 mini. This reduces also the wire clutter and clears the V0.1 from an additional voltage converter. My initial idea was to solder on a reduced header (only RX/TX to E3 and SPI header for the ADXL345 accelerometer for input shaper. After some thought, you never know what the future will bring, so a full header it is.
 In this repository I will document the basic workflow, as well as the changes I found usefull for my needs, and I hope it will improve the experience of other Voron builders and 3D printing enthousiasts.
+<img width="1025" alt="Schermafbeelding 2021-12-29 om 11 49 50" src="https://user-images.githubusercontent.com/61151314/147654966-99fabae2-09ca-45a7-9f58-60112167e52c.png">
+
 My workflow and learnings to install Klipper and MainsailOS:
 Before starting, safe all your config files, calibration files etc. before flashing your SD card. Once flashing, there is no way back.
 1. Download the latest image of Mainsail from https://docs.mainsail.xyz/setup/mainsail-os
