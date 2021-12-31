@@ -8,6 +8,7 @@ First, with the release of the release of the Raspberry Zero W 2, there is enoug
 * The RPI has its own mounting bracket and bonds to the Mid-panel using 20mm VHB tape.
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/61151314/147820874-e55cf62e-23d9-4c15-b7b5-de01e9ec226c.png">
 Find the file here: https://github.com/SanderRave/Voron-V0.564/blob/407bb8968269d2263191a25c71a370739c0183fd/Rave_RPI0W2_V0_Mount.stl
+
 My initial idea was to solder on a reduced header (only RX/TX to E3 and SPI header for the ADXL345 accelerometer for input shaper. After some thought, you never know what the future will bring, so a full header it is.
 In this repository I will document the basic workflow, as well as the changes I found usefull for my needs, and I hope it will improve the experience of other Voron builders and 3D printing enthousiasts.
 
