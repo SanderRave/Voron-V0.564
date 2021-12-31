@@ -13,6 +13,7 @@ My initial idea was to solder on a reduced header (only RX/TX to E3 and SPI head
 In this repository I will document the basic workflow, as well as the changes I found usefull for my needs, and I hope it will improve the experience of other Voron builders and 3D printing enthousiasts.
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/61151314/147820937-3d84b407-bff1-497a-882f-24bfa48300ba.png">
+Find the file here: https://github.com/SanderRave/Voron-V0.564/blob/263e1282da5027531e298a2915c9b21c5a905afc/Skr_E3_umbilical_Mounting_Bracket_x1.stl
 
 My workflow and learnings to install Klipper and MainsailOS:
 Before starting, safe all your config files, calibration files etc. before flashing your SD card. Once flashing, there is no way back.
