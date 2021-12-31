@@ -6,9 +6,11 @@ First, with the release of the release of the Raspberry Zero W 2, there is enoug
 <img width="1025" alt="Schermafbeelding 2021-12-29 om 11 49 50" src="https://user-images.githubusercontent.com/61151314/147654966-99fabae2-09ca-45a7-9f58-60112167e52c.png">
 * in this configuration, both SD-card slots can be accessed without taking off the back cover. The altered SKR_E3_Mounting_Bracket mounts to the vertical 1515 profile using two M3*16 BHCS fastners next to the VHB tape, and it holds a tie-wrap mount for the umbilical.
 * The RPI has its own mounting bracket and bonds to the Mid-panel using 20mm VHB tape.
- 
+<img width="843" alt="image" src="https://user-images.githubusercontent.com/61151314/147820874-e55cf62e-23d9-4c15-b7b5-de01e9ec226c.png">
+
 My initial idea was to solder on a reduced header (only RX/TX to E3 and SPI header for the ADXL345 accelerometer for input shaper. After some thought, you never know what the future will bring, so a full header it is.
 In this repository I will document the basic workflow, as well as the changes I found usefull for my needs, and I hope it will improve the experience of other Voron builders and 3D printing enthousiasts.
+<img width="695" alt="image" src="https://user-images.githubusercontent.com/61151314/147820937-3d84b407-bff1-497a-882f-24bfa48300ba.png">
 
 My workflow and learnings to install Klipper and MainsailOS:
 Before starting, safe all your config files, calibration files etc. before flashing your SD card. Once flashing, there is no way back.
